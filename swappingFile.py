@@ -8,9 +8,9 @@ def swapFileData():
     with open(file2,'r') as jia :
         data_jia = jia.read()
 
-    with open(file1,'w+') as Angel :
+    with open(file1,'W+') as Angel :
         Angel.write(data_jia) 
-    with open(file2,'w+') as jia :
+    with open(file2,'W+') as jia :
         Angel.write(data_Angel) 
 
 swapFileData()
